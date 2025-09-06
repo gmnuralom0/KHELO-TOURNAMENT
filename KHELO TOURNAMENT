@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="bn">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>আমার টুর্নামেন্ট অ্যাপ</title>
+  <style>
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial;display:flex;align-items:center;justify-content:center;min-height:100vh;background:#f5f7fb;margin:0}
+    .card{background:white;padding:28px;border-radius:12px;box-shadow:0 8px 24px rgba(0,0,0,0.08);max-width:420px;text-align:center}
+    h1{margin:0 0 8px;font-size:20px}
+    p{color:#555;margin:0 0 18px}
+    .btn{display:inline-block;padding:12px 20px;border-radius:8px;text-decoration:none;font-weight:600;border:0}
+    .download{background:#1a73e8;color:#fff}
+    small{display:block;margin-top:12px;color:#888}
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>আমার কলো টুর্নামেন্ট অ্যাপ</h1>
+    <p>এখান থেকে সরাসরি APK ডাউনলোড করে ইন্সটল করতে পারবেন।</p>
+
+    <!-- APK_DOWNLOAD_LINK এর জায়গায় আপনার apk লিংক বসান -->
+    <a class="btn download" href="APK_DOWNLOAD_LINK" download>অ্যাপ ডাউনলোড করুন</a>
+
+    <small>বিঃদ্রঃ Google Play থেকে নয় হলে ফোনে "Unknown sources" বা "Install unknown apps" অনুমতি দিতে হতে পারে।</small>
+  </div>
+</body>
+</html>
